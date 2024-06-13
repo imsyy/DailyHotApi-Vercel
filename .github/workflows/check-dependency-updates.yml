@@ -20,18 +20,14 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install pnpm
-        run: |
-          npm install -g pnpm
-
       - name: Install npm-check-updates
         run: |
-          pnpm add -g npm-check-updates
+          npm install -g npm-check-updates
 
       - name: Run npm-check-updates and update package.json
         run: |
           ncu -u
-          pnpm install
+          npm install
 
       - name: Commit changes
         run: |
