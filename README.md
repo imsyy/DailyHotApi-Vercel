@@ -23,4 +23,4 @@
 
 ## ⚙️ 自动更新
 
-本仓库使用 [GitHub Actions](/actions) 自动更新拉取最新版本，每天 0:00 更新，可在工作流中手动开启
+本仓库使用 [GitHub Actions]([/actions](https://github.com/imsyy/DailyHotApi-Vercel/actions)) 自动更新拉取最新版本，每天 0:00 更新，可在工作流中手动开启
