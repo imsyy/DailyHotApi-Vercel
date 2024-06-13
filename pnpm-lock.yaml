@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       dailyhot-api:
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@4.9.5)
+        specifier: ^2.0.1
+        version: 2.0.1(typescript@4.9.5)
     devDependencies:
       '@vercel/node':
         specifier: ^3.1.6
@@ -468,8 +468,8 @@ packages:
     resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
     engines: {node: '>= 6'}
 
-  dailyhot-api@2.0.0:
-    resolution: {integrity: sha512-fpgQ2Ra6I0Y7QsyPqhkH3+XXgoMrGp5z5N/rDqzAxAmBQRY2tmenfDrKquhldN50kR++2xun9c5I28LO/bC5sQ==}
+  dailyhot-api@2.0.1:
+    resolution: {integrity: sha512-r7VBY+/5Bpt/pI5iT+tMLJSgVdaeF0Lq9wQScR2X9BlDBtlcCohuNmLrnXQMFJQ74eHoxOZC3W9hD0RnmZZEwA==}
     engines: {node: '>=20'}
 
   data-uri-to-buffer@6.0.2:
@@ -1954,7 +1954,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -2218,7 +2218,7 @@ snapshots:
 
   css-what@6.1.0: {}
 
-  dailyhot-api@2.0.0(typescript@4.9.5):
+  dailyhot-api@2.0.1(typescript@4.9.5):
     dependencies:
       '@hono/node-server': 1.11.2
       axios: 1.7.2
@@ -2452,7 +2452,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -2560,7 +2560,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.5
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
@@ -2609,7 +2609,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -2623,7 +2623,7 @@ snapshots:
   https-proxy-agent@7.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -2869,7 +2869,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       get-uri: 6.0.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -2943,7 +2943,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -3080,7 +3080,7 @@ snapshots:
   socks-proxy-agent@8.0.3:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
