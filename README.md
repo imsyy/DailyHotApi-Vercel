@@ -20,3 +20,7 @@
 通过点击下方按钮进行一键部署，或者手动进行部署
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/imsyys-projects/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimsyy%2FDailyHotApi-Vercel)
+
+## ⚙️ 自动更新
+
+本仓库使用 [GitHub Actions](/actions) 自动更新拉取最新版本，每天 0:00 更新，可在工作流中手动开启
