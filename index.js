@@ -1,4 +1,4 @@
 import serveHotApi from "dailyhot-api";
 
-serveHotApi();
+serveHotApi(3000);
 
