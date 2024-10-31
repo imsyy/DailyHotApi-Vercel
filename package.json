@@ -14,7 +14,7 @@
     "dailyhot-api": "^2.0.5"
   },
   "devDependencies": {
-    "@vercel/node": "^3.2.23",
+    "@vercel/node": "^3.2.24",
     "vercel": "^34.2.8"
   }
 }
